@@ -31,3 +31,99 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+}
+.menu a {
+    font-size: 18px;
+    padding: 20px 20px 20px;
+    padding-left: 30px;
+    text-decoration: none;
+    display: inline-block;
+    color:#25133d;
+}
+.menu a:hover {
+    background-color: rgb(245, 184, 135);
+}
+.aktivni {
+    color: #25133d;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.vizual {
+    background-image: url("./images/pozadi.jpg");
+    position: relative;
+    height: 480px;
+}
+h1 {
+    color: white;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 80px;
+    padding-top: 40px;
+    margin:0px;
+}
+h2 {
+    color: white;
+    padding-left: 30px;
+    font-weight: 300;
+    font-size: 40px; 
+}
+.buttonky a {
+    font-size: 18px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px white solid ;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5%;
+    text-decoration: none;
+}
+.buttonek1{
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
+.buttonek2{
+    position: absolute;
+    bottom: 40px;
+    left: 230px;
+}
+.buttonky a:hover {
+    background-color: #48418e;
+}
+
+.telefon {
+    width: 420px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float:
+}
+.detaily {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sloupec {
+    flex: 1 1 calc(100% / 3);
+    text-align: center;
+    padding: 30px;
+}
+h3 {
+    font-size: 20px;
+    color: #48418e;
+}
+img {
+    width: 60px;
+}
+.paticka {
+    color: white;
+    background-color: #48418e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
